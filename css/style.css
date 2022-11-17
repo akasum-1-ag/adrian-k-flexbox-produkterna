@@ -1,0 +1,156 @@
+body {
+  background-color:#ea035b;
+  margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topnav { /* navbar */
+  display: flex;
+  background-color:#0e181b;
+  height: 100px;
+  width: 100vw;
+  overflow:hidden;
+  position: fixed;
+  top:0;
+}
+
+.topnav, a:link, a:visited { /* länkar */
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.item {
+  display: flex;
+  height:200px;
+  width: 200px;
+  background-color:#0e181b;
+  justify-content: center;
+  font-size: 30px;
+  font-family:Impact;
+  width: 100%;
+}
+
+.item-center {
+  display: flex;
+  flex-grow: 1;
+  background-color:#0e181b;
+  justify-content: center;
+   font-size: 30px;
+  font-family:Impact;
+}
+
+a {
+  width: 17%;
+}
+
+.item:hover,:focus {
+  background-color:#ea035b;
+  color: #192734;
+  transition: all 0.5s ease-out;
+}
+
+.item-center:hover,:focus {
+  background-color:#ea035b;
+  color:#192734;
+  transition: all 0.5s ease-out;
+}
+
+#middle-link {
+  display: flex;
+  flex-grow: 1;
+  background-color:#192734;
+  justify-content: center;
+   font-size: 30px;
+  font-family:Impact;
+}
+
+.picture {
+  display: grid;
+  place-items: center;
+  padding-bottom: 10px;
+}
+
+.title-white {
+  margin-top: 100px;
+  margin-left: 10px;
+  color:#FFFFFF;
+  font-size: 100px;
+  font-family:Impact;
+  height: 100px;
+  margin-left: 5%;
+}
+
+.title-black {
+    margin-top: 100px;
+    margin-left: 10px;
+    color:#0e181b;
+    font-size: 100px;
+    font-family:Impact;
+    height: 100px;
+    margin-left: 5%;
+  }
+
+.header {
+  color: #FFFFFF;
+  font-family:Impact;
+  margin-left: 10px;
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+.text {
+  color: #FFFFFF;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.bar {
+  display:flex;
+  width: 100%;
+  height: 50px;
+  color:#FFFFFF;
+  background-color:#FFFFFF;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.item-2 {
+  display: flex;
+  background-color:#0e181b;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family:Impact;
+  width: 275px;
+  height: 50px;
+}
+
+.item-2:hover,:focus {
+  background-color:#ea035b;
+  color: #192734;
+  transition: all 0.5s ease-out;
+}
+
+.link img {
+  height: 50px;
+  width: 70px;
+  margin-left: 50px;
+}
