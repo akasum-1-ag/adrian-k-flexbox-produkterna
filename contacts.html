@@ -5,29 +5,72 @@
     <body>
         <nav>
             <div class="topnav">
-                <a href="products.html"><div class="item"><p>Produkter</p></div></a>
-                <a href="about.html"><div class="item"><p>Om oss</p></div></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Om oss</button>
+                    <div class="dropdown-content">
+                      <a href="about.html#players">Spelare</a>
+                      <a href="about.html#partners">Partners</a>
+                    </div>
+                  </div>
+                <a href="index.html#products"><div class="item"><p>Produkter</p></div></a>
                 <a href="index.html"id="middle-link"><div class="item-center"><p>MYTH Esports</p></div></a>
                 <a href="contacts.html"><div class="item"><p>Kontakter</p></div></a>
                 <a href="documentation.html"><div class="item"><p>Dokumentation</p></div></a>
             </div>
-       </nav>
-       <div class="title-black">
-        <p>Kontakter</p>
-       </div>
-       <div class="picture">
-            <img src="./img/tumblr_p7j5t5bZRh1wkcwneo1_640.gif" alt="Gif" width="100%">
+        </nav>
+        <div class="title-contacts">
+            <p>Kontakter</p>
         </div>
-        <div class="header">
-            MYTH Esports
+        <div class="container-slideshow">
+            <img src="./img/Dev_Blog_5_VAL_esports_graphic_rev.jpeg" class="img-slideshow" alt="Valorant Esports" width="100%">
         </div>
-            <div class="container">
-                <div class="link">
-                    <a href="https://solo.to/mythesports" class="item-2">Sociala Medier</a>
-                    <img src="./img/Twitter-logo-png.png" alt="Twitter Logo" width="10%">
-                    <img src="./img/TikTok-Logo-Download-Free-PNG.png" alt="TikTok Logo">
-                </div>
+        <div class="container-slideshow">
+            <img src="./img/Valorant-Esports-2023.jpeg" class="img-slideshow" alt="Valorant Esports" width="100%">
+        </div>
+        <div class="container-slideshow">
+            <img src="./img/VCT22_CH_Primer_Article_Header.jpeg" class="img-slideshow" alt="Valorant Esports" width="100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
+        <div style="text-align:center">
+            <span class="dot-slideshow" onclick="currentSlide(1)"></span>
+            <span class="dot-slideshow" onclick="currentSlide(2)"></span>
+            <span class="dot-slideshow" onclick="currentSlide(3)"></span>
+          </div>
+          <div class="text">
+            <p>
+                Myth Esports skapades 2021 i Nederländerna. Från början har Myth utvecklats för att skapa en professionell miljö för spelare och personal att få erfarenhet inom e-sportscenen. Myth deltar i flera olika Esports-spel, samt har flera lag per match. Allt innehåll produceras och görs på engelska för även om Myth ligger i Nederländerna finns det fortfarande många internationella spelare/personal samt fans.<br><br>
+                Vi har alla varit där och börjat någonstans. Myth vill ge de oerfarna spelarna/personalen/andra anställda chansen att bevisa vad de kan bidra med i sina projekt. På e-sportscenen är det väldigt svårt att börja i en professionell organisation, det är därför Myth inte avvisar människor på grund av bristande erfarenhet. Myth vill att de ska växa och lära sig i sin organisation av sina mer erfarna människor. Det är viktigt att medarbetarna lyssnar på varandras åsikter, det är därför Myth inte vill ha en diktatur utan ha en bra diskussion om varför någon tycker att en viss sak är rätt eller fel. Genom att gå in i den här diskussionen kan ni lära er mycket av varandra och varandras visioner. Om det finns någon frustration eller irritation mellan människor pratar vi som vuxna och hör av oss istället för att hålla dessa frustrationer inne och skapa en stor spänning.
+            </p>
+          </div>
+        <div class="title-socials">
+            <p>Sociala Medier</p>
+        </div>
+        <div class="container-contacts">
+            <a href="https://twitter.com/Myth_NL"><p>Twitter</p></a>
+            <a href="https://www.instagram.com/myth_nl/"><p>Instagram</p></a>
+            <a href="https://www.facebook.com/Myth_NL/"><p>Facebook</p></a>
+            <a href="https://discord.com/invite/mythesports"><p>Discord</p></a>
+        </div>
+        <div class="title-white">
+            <p>E-Mail</p>
+        </div>
+        <div class="text">
+            <a id="mail"></a><p>Adrian.Kasum.gbg22@amerikanskagymnasiet.se</p>
+        </div>
+        </div>
+        <div class="row-info">
+            <div class="column-info">
+                <a href="contacts.html#mail"><div class="title-info">Ta kontakt med oss via Mail!</div></a>
+            </div>
+            <div class="column-info">
+                <a href="https://twitter.com/Myth_NL"><div class="title-info">Följ oss på Twitter!</div></a>
+            </div>
+            <div class="column-info">
+                <a href="https://discord.com/invite/SqAtTZj7EQ"><div class="title-info">Gå med i vår Discord!</div></a>
             </div>
         </div>
+        <script src="/slideshow.js"></script>
     </body>
 </html>
